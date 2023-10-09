@@ -1,4 +1,4 @@
 [debug] [projectname] Classpath dependencies List()
 [debug] [projectname] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'projectname' to '/home/fluctlight/spinalhdl/MySpinalProject/.bloop/projectname.json'
+[debug] Bloop wrote the configuration of project 'projectname' to '/home/fluctlight/spinalhdl/Arty-A7-100-SpinalHDL/.bloop/projectname.json'
 [success] Generated .bloop/projectname.json

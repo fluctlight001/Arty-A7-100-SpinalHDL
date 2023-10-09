@@ -2,20 +2,20 @@
     "version": "1.4.0",
     "project": {
         "name": "projectname-test",
-        "directory": "/home/fluctlight/spinalhdl/MySpinalProject",
-        "workspaceDir": "/home/fluctlight/spinalhdl/MySpinalProject",
+        "directory": "/home/fluctlight/spinalhdl/Arty-A7-100-SpinalHDL",
+        "workspaceDir": "/home/fluctlight/spinalhdl/Arty-A7-100-SpinalHDL",
         "sources": [
-            "/home/fluctlight/spinalhdl/MySpinalProject/src/test/scala",
-            "/home/fluctlight/spinalhdl/MySpinalProject/src/test/scala-2.12",
-            "/home/fluctlight/spinalhdl/MySpinalProject/src/test/scala-2",
-            "/home/fluctlight/spinalhdl/MySpinalProject/src/test/java",
-            "/home/fluctlight/spinalhdl/MySpinalProject/target/scala-2.12/src_managed/test"
+            "/home/fluctlight/spinalhdl/Arty-A7-100-SpinalHDL/src/test/scala",
+            "/home/fluctlight/spinalhdl/Arty-A7-100-SpinalHDL/src/test/scala-2.12",
+            "/home/fluctlight/spinalhdl/Arty-A7-100-SpinalHDL/src/test/scala-2",
+            "/home/fluctlight/spinalhdl/Arty-A7-100-SpinalHDL/src/test/java",
+            "/home/fluctlight/spinalhdl/Arty-A7-100-SpinalHDL/target/scala-2.12/src_managed/test"
         ],
         "dependencies": [
             "projectname"
         ],
         "classpath": [
-            "/home/fluctlight/spinalhdl/MySpinalProject/.bloop/projectname/scala-2.12/classes",
+            "/home/fluctlight/spinalhdl/Arty-A7-100-SpinalHDL/.bloop/projectname/scala-2.12/classes",
             "/home/fluctlight/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.16/scala-library-2.12.16.jar",
             "/home/fluctlight/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/spinalhdl/spinalhdl-core_2.12/1.9.3/spinalhdl-core_2.12-1.9.3.jar",
             "/home/fluctlight/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/spinalhdl/spinalhdl-lib_2.12/1.9.3/spinalhdl-lib_2.12-1.9.3.jar",
@@ -36,11 +36,11 @@
             "/home/fluctlight/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar",
             "/home/fluctlight/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar"
         ],
-        "out": "/home/fluctlight/spinalhdl/MySpinalProject/.bloop/projectname",
-        "classesDir": "/home/fluctlight/spinalhdl/MySpinalProject/.bloop/projectname/scala-2.12/test-classes",
+        "out": "/home/fluctlight/spinalhdl/Arty-A7-100-SpinalHDL/.bloop/projectname",
+        "classesDir": "/home/fluctlight/spinalhdl/Arty-A7-100-SpinalHDL/.bloop/projectname/scala-2.12/test-classes",
         "resources": [
-            "/home/fluctlight/spinalhdl/MySpinalProject/src/test/resources",
-            "/home/fluctlight/spinalhdl/MySpinalProject/target/scala-2.12/resource_managed/test"
+            "/home/fluctlight/spinalhdl/Arty-A7-100-SpinalHDL/src/test/resources",
+            "/home/fluctlight/spinalhdl/Arty-A7-100-SpinalHDL/target/scala-2.12/resource_managed/test"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -119,7 +119,7 @@
             "config": {
                 "home": "/usr/lib/jvm/java-8-openjdk-amd64/jre",
                 "options": [
-                    "-Duser.dir=/home/fluctlight/spinalhdl/MySpinalProject"
+                    "-Duser.dir=/home/fluctlight/spinalhdl/Arty-A7-100-SpinalHDL"
                 ]
             },
             "mainClass": [

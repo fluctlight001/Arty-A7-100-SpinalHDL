@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0m[myspinalproject-build-build] Classpath dependencies List()[0m
-[0m[[0m[0mdebug[0m] [0m[0m[myspinalproject-build-build] Dependencies from configurations List()[0m
-[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'myspinalproject-build-build' to '/home/fluctlight/spinalhdl/MySpinalProject/project/project/.bloop/myspinalproject-build-build.json'[0m
-[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/myspinalproject-build-build.json[0m
+[debug] [arty-a7-100-spinalhdl-build-build] Classpath dependencies List()
+[debug] [arty-a7-100-spinalhdl-build-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'arty-a7-100-spinalhdl-build-build' to '/home/fluctlight/spinalhdl/Arty-A7-100-SpinalHDL/project/project/.bloop/arty-a7-100-spinalhdl-build-build.json'
+[success] Generated .bloop/arty-a7-100-spinalhdl-build-build.json
