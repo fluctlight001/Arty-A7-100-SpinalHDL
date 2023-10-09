@@ -1,0 +1,169 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 29956
+License: Customer
+
+Current time: 	Mon Oct 09 21:56:11 CST 2023
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 24
+
+Screen size: 2560x1440
+Screen resolution (DPI): 100
+Available screens: 2
+Available disk space: 27 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	D:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Fluctlight
+User home directory: C:/Users/Fluctlight
+User working directory: D:/Project/Arty-A7-100-SpinalHDL/vivado
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2019.2
+RDI_DATADIR: D:/Xilinx/Vivado/2019.2/data
+RDI_BINDIR: D:/Xilinx/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/Fluctlight/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/Fluctlight/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/Fluctlight/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/Project/Arty-A7-100-SpinalHDL/vivado/vivado.log
+Vivado journal file location: 	D:/Project/Arty-A7-100-SpinalHDL/vivado/vivado.jou
+Engine tmp dir: 	D:/Project/Arty-A7-100-SpinalHDL/vivado/.Xil/Vivado-29956-DESKTOP-2SRSO19
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2019.2
+XILINX_VIVADO: D:/Xilinx/Vivado/2019.2
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2019.2
+
+
+GUI allocated memory:	196 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 830 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: D:\Project\Arty-A7-100-SpinalHDL\vivado\Arty-A7-100-SpinalHDL.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/Project/Arty-A7-100-SpinalHDL/vivado/Arty-A7-100-SpinalHDL.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 114 MB (+117491kb) [00:00:05]
+// [Engine Memory]: 801 MB (+688818kb) [00:00:05]
+// WARNING: HEventQueue.dispatchEvent() is taking  1193 ms.
+// Tcl Message: open_project D:/Project/Arty-A7-100-SpinalHDL/vivado/Arty-A7-100-SpinalHDL.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/Project/Arty-A7-100-SpinalHDL' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.2/data/ip'. 
+// Project name: Arty-A7-100-SpinalHDL; location: D:/Project/Arty-A7-100-SpinalHDL/vivado; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bB (cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 854 MB. GUI used memory: 59 MB. Current time: 10/9/23, 9:56:12 PM CST
+// [Engine Memory]: 854 MB (+13136kb) [00:00:08]
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 1); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 2, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 2, false, false, false, false, false, true); // B (F, cr) - Double Click
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4, false, false, false, false, false, true); // B (F, cr) - Double Click
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (F, cr)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 1); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 1); // B (F, cr)
+// Elapsed time: 20 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (f, cr)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, "Add or create constraints"); // a (o, c)
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files"); // a (E, c)
+// Elapsed time: 30 seconds
+dismissFileChooser();
+selectButton("CANCEL", "Cancel"); // JButton (j, c)
+// 'h' command handler elapsed time: 42 seconds
+dismissDialog("Add Sources"); // c (cr)
+// Elapsed time: 161 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (f, cr)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, "Add or create constraints"); // a (o, c)
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// Tcl Command: 'file mkdir D:/Project/Arty-A7-100-SpinalHDL/vivado/Arty-A7-100-SpinalHDL.srcs/constrs_1'
+// C (cr): Create Constraints File: addNotify
+// Tcl Message: file mkdir D:/Project/Arty-A7-100-SpinalHDL/vivado/Arty-A7-100-SpinalHDL.srcs/constrs_1 
+// Elapsed time: 13 seconds
+setText(PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, "Arty-A7-100-Master.xdc"); // ac (D, C)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (C)
+dismissDialog("Create Constraints File"); // C (cr)
+// Elapsed time: 10 seconds
+selectCheckBox(PAResourceAtoD.ConstraintsChooserPanel_COPY_CONSTRAINTS_FILES_INTO_PROJECT, "Copy constraints files into project", true); // g (h, c): TRUE
+selectCheckBox(PAResourceAtoD.ConstraintsChooserPanel_COPY_CONSTRAINTS_FILES_INTO_PROJECT, "Copy constraints files into project", false); // g (h, c): FALSE
+selectCheckBox(PAResourceAtoD.ConstraintsChooserPanel_COPY_CONSTRAINTS_FILES_INTO_PROJECT, "Copy constraints files into project", true); // g (h, c): TRUE
+// Tcl Command: 'file mkdir D:/Project/Arty-A7-100-SpinalHDL/vivado/Arty-A7-100-SpinalHDL.srcs/constrs_1/new'
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 34 seconds
+// Tcl Message: file mkdir D:/Project/Arty-A7-100-SpinalHDL/vivado/Arty-A7-100-SpinalHDL.srcs/constrs_1/new 
+dismissDialog("Add Sources"); // c (cr)
+// Tcl Message: close [ open D:/Project/Arty-A7-100-SpinalHDL/vivado/Arty-A7-100-SpinalHDL.srcs/constrs_1/new/Arty-A7-100-Master.xdc w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 D:/Project/Arty-A7-100-SpinalHDL/vivado/Arty-A7-100-SpinalHDL.srcs/constrs_1/new/Arty-A7-100-Master.xdc 
+// Elapsed time: 49 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 2); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Arty-A7-100-Master.xdc]", 3, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Arty-A7-100-Master.xdc]", 3, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Arty-A7-100-Master.xdc]", 3, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("Arty-A7-100-Master.xdc", 489, 378, false, false, false, true, false); // ch (w, cr) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_SAVE_FILE_AS, "Save File As..."); // ai (ao, cr)
+selectCodeEditor("Arty-A7-100-Master.xdc", 265, 337, false, false, false, true, false); // ch (w, cr) - Popup Trigger
+selectCodeEditor("Arty-A7-100-Master.xdc", 165, 247, false, true, false, false, false); // ch (w, cr) - Control Key
+typeControlKey((HResource) null, "Arty-A7-100-Master.xdc", 'v'); // ch (w, cr)
+// [GUI Memory]: 121 MB (+1393kb) [00:05:47]
+typeControlKey(null, null, 'z');
+selectCodeEditor("Arty-A7-100-Master.xdc", 416, 417); // ch (w, cr)
+typeControlKey((HResource) null, "Arty-A7-100-Master.xdc", 'v'); // ch (w, cr)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (f, cr)
+// TclEventType: FILE_SET_CHANGE

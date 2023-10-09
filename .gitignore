@@ -1,3 +1,4 @@
+# vivado
 *.bin
 *.o
 *.elf
@@ -9,14 +10,62 @@ ipshared/
 *.vho
 *.hwh
 *.hdf
-thinpad_top.tmp/
-thinpad_top.cache/
-thinpad_top.hw/
-thinpad_top.ip_user_files/
-thinpad_top.runs/
-thinpad_top.sim/sim_1/behav/xsim/
+Arty-A7-100-SpinalHDL.tmp/
+Arty-A7-100-SpinalHDL.cache/
+Arty-A7-100-SpinalHDL.hw/
+Arty-A7-100-SpinalHDL.ip_user_files/
+Arty-A7-100-SpinalHDL.runs/
+Arty-A7-100-SpinalHDL.sim/sim_1/behav/xsim/
 .Xil/
 *.jou
 *.log
 *.dcp
 /.lint/
+
+*.class
+*.log
+*.bak
+
+# sbt specific
+.cache/
+.history/
+.lib/
+dist/*
+target
+lib_managed/
+src_managed/
+project/boot/
+project/project
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.bloop
+
+.idea
+out
+
+# Metals
+.metals
+project/metals.sbt
+
+# Eclipse
+bin/
+.classpath
+.project
+.settings
+.cache-main
+
+#User
+/*.vhd
+/*.v
+*.cf
+*.json
+*.vcd
+!tester/src/test/resources/*.vhd
+
+
+simWorkspace/
+tmp/
+null
