@@ -21,7 +21,8 @@ case class MyTopLevel() extends Component {
 
   // io.state := counter
   // io.flag := (counter === 0) | io.cond1
-  io.led := io.sw
+  io.led(3 downto 2) := io.sw(3 downto 2)
+  io.led(1 downto 0) := 0
 }
 
 object MyTopLevelVerilog extends App {
