@@ -9,20 +9,38 @@ case class MyTopLevel() extends Component {
     // val cond1 = in  Bool()
     // val flag  = out Bool()
     // val state = out UInt(8 bits)
+    val clk = in Bool()
+    val rst = in Bool()
     val sw = in UInt(4 bits)
     val led = out UInt(4 bits)
   }
 
-  // val counter = Reg(UInt(8 bits)) init 0
+  val counter = UInt(8 bits)
+
+  val myClockDomain = ClockDomain(
+    clock = io.clk,
+    reset = io.rst,
+    config = ClockDomainConfig(
+      clockEdge = RISING,
+      resetKind = ASYNC,
+      resetActiveLevel = LOW
+    )
+  )
+  
+  val myArea = new ClockingArea(myClockDomain){
+    val myReg = Reg(UInt(8 bits)) init(0)
+    myReg := myReg + 1
+    counter := myReg
+  }
 
   // when(io.cond0) {
-  //   counter := counter + 1
+  //   
   // }
 
   // io.state := counter
   // io.flag := (counter === 0) | io.cond1
   io.led(3 downto 2) := io.sw(3 downto 2)
-  io.led(1 downto 0) := 0
+  io.led(1 downto 0) := Mux(counter(7),U(3),U(0))
 }
 
 object MyTopLevelVerilog extends App {
