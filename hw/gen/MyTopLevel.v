@@ -11,20 +11,22 @@ module MyTopLevel (
   output reg [3:0]    io_led
 );
 
-  wire       [7:0]    counter;
-  reg        [7:0]    myArea_myReg;
+  wire       [27:0]    counter;
+  reg        [27:0]    myArea_myReg;
 
   assign counter = myArea_myReg;
   always @(*) begin
-    io_led[3 : 2] = io_sw[3 : 2];
-    io_led[1 : 0] = (counter[7] ? 2'b11 : 2'b00);
+    io_led[3 : 2] = {io_sw[3], io_rst};
+    // io_led[1] = 1;
+    // io_led[0] = 0;
+    io_led[1 : 0] = (counter[27] ? 2'b11 : 2'b00);
   end
 
-  always @(posedge io_clk or negedge io_rst) begin
-    if(!io_rst) begin
-      myArea_myReg <= 8'h00;
+  always @(posedge io_clk or posedge io_rst) begin
+    if(io_rst) begin
+      myArea_myReg <= 0;
     end else begin
-      myArea_myReg <= (myArea_myReg + 8'h01);
+      myArea_myReg <= (myArea_myReg + 1);
     end
   end
 
