@@ -1,6 +1,6 @@
 // Generator : SpinalHDL v1.9.3    git head : 029104c77a54c53f1edda327a3bea333f7d65fd9
 // Component : MyTopLevel
-// Git hash  : 8331e8de986b0985fc241f6c10f3ee91ba590246
+// Git hash  : 3b7e27856ab6d9a3c032132c4d425d85cd0be09b
 
 `timescale 1ns/1ps
 
@@ -55,20 +55,23 @@ module RGB (
   reg                 led_r;
   reg                 led_g;
   reg                 led_b;
+  reg                 half;
   reg                 io_hit_regNext;
-  wire                when_MyTopLevel_l24;
+  wire                when_MyTopLevel_l27;
 
-  assign when_MyTopLevel_l24 = (io_hit && (! io_hit_regNext));
-  assign io_led_r = led_r;
-  assign io_led_g = led_g;
-  assign io_led_b = led_b;
+  assign when_MyTopLevel_l27 = (io_hit && (! io_hit_regNext));
+  assign io_led_r = (half ? led_r : 1'b0);
+  assign io_led_g = (half ? led_g : 1'b0);
+  assign io_led_b = (half ? led_b : 1'b0);
   always @(posedge clk or posedge reset) begin
     if(reset) begin
       led_r <= 1'b1;
       led_g <= 1'b0;
       led_b <= 1'b0;
+      half <= 1'b1;
     end else begin
-      if(when_MyTopLevel_l24) begin
+      half <= (! half);
+      if(when_MyTopLevel_l27) begin
         led_b <= led_r;
         led_g <= led_b;
         led_r <= led_g;

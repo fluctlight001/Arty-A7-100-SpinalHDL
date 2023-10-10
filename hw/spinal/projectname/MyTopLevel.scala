@@ -20,6 +20,9 @@ case class RGB() extends  Component {
   val led_r = Reg(Bool()) init(True)
   val led_g = Reg(Bool()) init(False)
   val led_b = Reg(Bool()) init(False)
+  val half = Reg(Bool()) init(True)
+
+  half := ~half
 
   when (io.hit.rise()){
     led_b := led_r
@@ -27,9 +30,9 @@ case class RGB() extends  Component {
     led_r := led_g
   }
 
-  io.led_r := led_r
-  io.led_g := led_g
-  io.led_b := led_b
+  io.led_r := Mux(half,led_r,False)
+  io.led_g := Mux(half,led_g,False)
+  io.led_b := Mux(half,led_b,False)
 }
 
 // Hardware definition
