@@ -22,6 +22,8 @@ Arty-A7-100-SpinalHDL.sim/sim_1/behav/xsim/
 *.dcp
 /.lint/
 
+*.str
+
 *.class
 *.log
 *.bak
